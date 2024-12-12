@@ -1,0 +1,147 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;  /* Light gray background for a clean look */
+    color: #333;  /* Dark gray text for readability */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #ffffff;  /* White background for contrast */
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);  /* Subtle shadow for depth */
+    border-radius: 12px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;  /* Slate gray for sophistication */
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    padding: 12px;
+    font-size: 18px;
+    border: 1px solid #ccd1d9;  /* Soft border for minimal look */
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+input[type="text"]::placeholder {
+    color: #999;  /* Subtle placeholder text */
+}
+
+button {
+    padding: 12px;
+    font-size: 18px;
+    background-color: #3498db;  /* Modern blue accent for buttons */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;  /* Slightly darker blue for hover effect */
+}
+
+.error {
+    color: #e74c3c;  /* Elegant red for error messages */
+    text-align: center;
+    font-size: 16px;
+}
+
+.recommendation {
+    text-align: center;
+    padding: 20px;
+    background-color: #ecf0f1;  /* Light gray for subtle separation */
+    border: 1px solid #dfe6e9;  /* Light border for distinction */
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.recommendation h2, .recommendation p {
+    margin: 10px 0;
+}
+
+.recommendation span {
+    font-weight: bold;
+    color: #3498db;  /* Consistent blue accent for emphasis */
+}
+
+.plot {
+    margin-bottom: 30px;
+}
+
+.prediction-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: #f9f9f9;  /* Subtle gray background for contrast */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.prediction-table th,
+.prediction-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;  /* Light border for table cells */
+}
+
+.prediction-table th {
+    background-color: #2c3e50;  /* Dark header for contrast */
+    color: #fff;  /* White text for clarity */
+    font-weight: bold;
+}
+
+.prediction-table tr:nth-child(even) {
+    background-color: #f4f4f4;  /* Alternating row color for readability */
+}
+
+.prediction-table tr:hover {
+    background-color: #ecf0f1;  /* Highlight row on hover */
+}
+
+.risk-indicator {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.risk-indicator.low-risk {
+    background-color: #2ecc71;  /* Modern green for low risk */
+}
+
+.risk-indicator.mild-risk {
+    background-color: #f1c40f;  /* Elegant yellow for mild risk */
+}
+
+.risk-indicator.high-risk {
+    background-color: #e74c3c;  /* Bold red for high risk */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #2c3e50;  /* Slate gray footer for distinction */
+    color: #fff;  /* White text for contrast */
+    font-size: 14px;
+    border-top: 1px solid #dfe6e9;
+}
